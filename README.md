@@ -1,0 +1,1 @@
+# waybar-electricity-scheduler
