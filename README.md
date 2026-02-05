@@ -39,6 +39,13 @@ chmod +x ~/.config/waybar/modules/set_electricity_status.py
 
 Перезапустіть Waybar.
 
+Якщо у вас Hyprland, додайте наступне в конфіг, щоб вікно форми працювало коректно:
+```
+windowrule = float on, match:title PowerSchedule
+windowrule = center on, match:title PowerSchedule
+windowrule = size 400 240, match:title PowerSchedule
+```
+
 ---
 
 # English
@@ -81,3 +88,10 @@ chmod +x ~/.config/waybar/modules/set_electricity_status.py
 Add `"custom/electricity_timer"` to your waybar layout.
 
 Restart Waybar.
+
+If you use Hyprland, add the following to your config to make the form window work correctly:
+```
+windowrule = float on, match:title PowerSchedule
+windowrule = center on, match:title PowerSchedule
+windowrule = size 400 240, match:title PowerSchedule
+```
