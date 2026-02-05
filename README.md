@@ -18,7 +18,7 @@
 
 Відредагуйте шляхи відповідно до ваших налаштувань.
 
-Потім додайте до `~/.config/waybar/config,jsonc`:
+Потім додайте до `~/.config/waybar/config.jsonc`:
 ```
 {
   "include": [
@@ -61,7 +61,7 @@ Everything happens in `~/.config/waybar`.
 
 Edit the paths according to your settings.
 
-Then add to `~/.config/waybar/config,jsonc`:
+Then add to `~/.config/waybar/config.jsonc`:
 ```
 {
 "include": [
