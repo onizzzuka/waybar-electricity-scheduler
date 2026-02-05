@@ -1,0 +1,25 @@
+{
+  "custom/electricity_timer": {
+    "format": "{}",
+    "rotate": 0,
+    "exec": "python3 ~/.config/waybar/scripts/electricity_status.py",
+    "return-type": "json",
+    "interval": 60, // refresh each minute
+
+    // open form
+    "on-click": "python3 ~/.config/waybar/scripts/set_electricity_schedule.py",
+
+    // may add force refresh on right click
+    //"on-click-right": "pkill -RTMIN+8 waybar",
+    //"signal": 8,
+
+    "tooltip": true,
+
+    // setup for different states (classes), which we defined in Python
+    "format-icons": {
+      "warning": "",
+      "critical": "󱎔",
+      "off": "󰚥",
+    },
+  },
+}
