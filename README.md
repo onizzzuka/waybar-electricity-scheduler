@@ -27,6 +27,7 @@
   ]
 }
 ```
+Додайте `customtkinter` (встановіть через AUR або pip install).
 
 Зробіть скрипти виконуємими:
 ```
@@ -69,6 +70,7 @@ Then add to `~/.config/waybar/config,jsonc`:
 ]
 }
 ```
+Add `customtkinter` (install from AUR or pip install).
 
 Make the scripts executable:
 ```
